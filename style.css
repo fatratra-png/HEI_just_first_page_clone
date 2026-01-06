@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Primary Colors */
+  --hei_blue: #001948;
+  --hei_orange: #dfa408;
+  --hei_white: #ffffff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 50px;
+  background-color: var(--hei_blue);
+  padding-inline: 380px;
+  gap: 265px;
+}
+.hei_logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: Helvetica, sans-serif;
+  align-items: center;
+}
+.navbar li {
+  color: var(--hei_white);
+  font-size: 17px;
+  cursor: pointer;
+  padding-block: 10px;
+  border-bottom: 3px solid var(--hei_blue);
+
+  transition: 0.3s;
+}
+.navbar li:hover {
+  color: var(--hei_orange);
+  border-bottom: 3px solid var(--hei_orange);
+}
+.intranet_link {
+  background-color: var(--hei_orange);
+  color: var(--hei_white);
+  padding: 10px 20px;
+}
+.navbar .intranet_link:hover {
+  color: var(--hei_white);
+  border-bottom: 3px solid var(--hei_blue);
+}
+#active {
+  color: var(--hei_orange);
+  border-bottom: 3px solid var(--hei_orange);
+}
+main{
+    text-align: center;
+}
